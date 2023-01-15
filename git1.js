@@ -5,7 +5,7 @@ for(let i=2;i<=10;i++){
   let num = i;
   let count=0;
   for(let j=2; j<=num;j++){
-    if(num%j==1){
+    if(num%j==0){
     count++;
   }
 }
